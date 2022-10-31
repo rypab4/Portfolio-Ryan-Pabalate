@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     line-height: 2;
+    margin: 2%
   }
   
   header {
@@ -16,6 +17,32 @@ body {
     font-size: 500%;
   } 
   
+  .top-card {
+    font-size: 200%;
+    padding: 5%;
+    width: 40%;
+  }
+  .about-me{
+    font-size: 200%;
+    padding-top: 1% ;
+
+  }
+  .pic{
+    max-width: 20%;
+  }
+
+  .port{
+    font-size: 200%;
+    padding-top: 10%
+  }
+
+  .me{
+    display: flex;
+    justify-self: space-evenly;
+
+    
+
+  }
   nav ul {
     display: flex;
     justify-content: space-between;
