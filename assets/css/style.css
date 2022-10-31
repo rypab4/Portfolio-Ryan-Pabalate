@@ -1,5 +1,5 @@
 *{
-    background-color:rgb(16, 193, 193);
+    background-color:rgb(229, 245, 229);
     transition: flex-basis 500ms linear;
 }
 body {
@@ -26,29 +26,50 @@ body {
 } 
   
   .top-card {
-    font-size: 200%;
-    padding: 5%;
-    width: 40%;
+    font: 10%;
+    padding: 3% 4% 0% 5%;
+    width: 4%;
   }
   .about-me{
-    font-size: 200%;
-    padding-top: 1% ;
+    font-size: 300%;
+    width: 50%;
+    text-align: center;
+    margin: 10% 0% 0% 0%;
 
   }
   .pic{
-    max-width: 20%;
+    padding-left: 10%;
+    padding-top: 8%;
   }
 
   .port{
     font-size: 200%;
-    padding-top: 10%
+    padding-top: 20%
   }
 
   .me{
     display: flex;
-    justify-self: space-evenly;
+    flex-wrap:wrap;
+  }
+  
+  .card{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+  }
+  aside h2{
+    font-size: 40px;
+    padding-top: 200px ;
+    border-right: solid;
+    margin-top: 200px;
+    padding-bottom: 200px;
+    text-orientation: upright;
+    color:black;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    position: absolute;
+    writing-mode: vertical-lr;
 
-    
 
   }
   nav ul {
@@ -75,14 +96,22 @@ body {
     font-weight: 900;
   }
 
+
 .italy{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 10px;
-    
+    margin: 10%;
   }
 
+  h3{
+
+    font-size: 30px;
+    text-align: center;
+    border: solid;
+    background: tan;
+  }
 
 .pic2{
   height: 200px;
@@ -92,5 +121,4 @@ body {
 .bigger{
   flex-grow: 1 0 auto;
   width: 100%;
-
 }
