@@ -15,7 +15,10 @@ body {
   
   h1 {
     font-size: 500%;
-  } 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+
+} 
   
   .top-card {
     font-size: 200%;
@@ -49,10 +52,20 @@ body {
     min-width: 500px;
   }
   
-  nav a {
-    color: #b2aec6;
+  a:link{
     font-weight: bold;
+    font-size:20px;
+    color:blue;
     text-decoration: none;
-    font-size: 150%;
   }
-  
+
+  a:hover{
+    font-size: 25px;
+  }
+  a:focus{
+    background: yellow;
+  }
+  a:active{
+    color: green;
+    font-weight: 900;
+  }
