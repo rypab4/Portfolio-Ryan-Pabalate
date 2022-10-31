@@ -78,12 +78,19 @@ body {
 .italy{
     display: flex;
     flex-wrap: wrap;
-    height: 250px;
+    justify-content: space-between;
+    padding: 10px;
+    
   }
-.growing{
-    flex-wrap: 0;
-}
+
 
 .pic2{
-    max-width: 50%%;
+  height: 200px;
+}
+
+
+.bigger{
+  flex-grow: 1 0 auto;
+  width: 100%;
+
 }
