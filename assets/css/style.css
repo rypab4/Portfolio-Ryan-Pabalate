@@ -1,8 +1,13 @@
+*{
+    background-color:rgb(16, 193, 193);
+    transition: flex-basis 500ms linear;
+}
 body {
     display: flex;
     flex-direction: column;
     line-height: 2;
-    margin: 2%
+    margin: 2%;
+
   }
   
   header {
@@ -69,3 +74,16 @@ body {
     color: green;
     font-weight: 900;
   }
+
+.italy{
+    display: flex;
+    flex-wrap: wrap;
+    height: 250px;
+  }
+.growing{
+    flex-wrap: 0;
+}
+
+.pic2{
+    max-width: 50%%;
+}
