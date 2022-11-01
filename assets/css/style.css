@@ -40,6 +40,7 @@ h1 {
   width: 50%;
   text-align: justify;
   margin: 10% 0% 0% 0%;
+  padding-bottom: 0%;
 
 }
 
@@ -56,6 +57,8 @@ h1 {
 .me {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
 }
 
 .card {
@@ -69,7 +72,6 @@ h2 {
   padding: 3% 5% 0% 0%;
   border-right: solid;
   margin-top: 200px;
- 
   text-orientation: upright;
   color: black;
   text-transform: uppercase;
@@ -113,6 +115,7 @@ a:active {
   justify-content: space-between;
   padding: 10px;
   margin: 10%;
+  margin-bottom: 0px;
 }
 
 h3 {
@@ -125,6 +128,8 @@ h3 {
 
 .pic2 {
   height: 200px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 
@@ -138,10 +143,11 @@ h3 {
   margin-left: 100px;
   padding-left: 100px;
   margin-bottom: 200px;
+  margin-top: 0px;
 }
 
 .resume{
-  margin-top: 80px;
+  margin-top: 0px;
 }
 
 .contact{
@@ -153,4 +159,37 @@ h3 {
   height:500px;
   margin-left: 300px;
   margin-top: 0px;
+}
+
+@media screen and (max-width: 1700px) {
+  h2 {
+    font-size: 40px;
+    padding: 0%;
+    border-right: none;
+    border-bottom: solid;
+    margin: 1px 200px 10px 10px;
+    text-orientation:upright;
+    position: static;
+    writing-mode:unset;
+    width: 100%;
+  }
+  .vert-header {
+    font: 10%;
+    padding: 0% 0% 0% 0%;
+    width: 100%;
+    margin-bottom: 0%;
+
+  }
+  .about-me {
+    font-size: 300%;
+    width: 100%;
+    text-align: justify;
+    margin: 10% 0% 0% 0%;
+    padding-bottom: 0%;
+  
+  }
+  .contact{
+    padding: 0%;
+    margin-top: 0;
+  }
 }
