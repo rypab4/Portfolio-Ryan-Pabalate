@@ -8,7 +8,6 @@ body {
   display: flex;
   flex-direction: column;
   line-height: 2;
-  margin: 2%;
   background-color: rgb(195, 233, 195);
 }
 
@@ -37,8 +36,8 @@ h1 {
 .about-me {
   font-size: 300%;
   width: 50%;
-  text-align: justify;
-  margin: 10% 0% 0% 0%;
+  text-align:start;
+  margin: 10% auto auto 0%;
   padding-bottom: 0%;
 
 }
@@ -66,7 +65,7 @@ h1 {
   flex-wrap: wrap;
   padding: 5% 5% 0px 5%;
 }
-
+/* make all h2 verticle */
 h2 {
   font-size: 40px;
   padding: 3% 5% 0% 0%;
@@ -85,18 +84,21 @@ h2 {
 nav ul {
   display: flex;
   justify-content: space-between;
+  padding-right:25%;
   min-width: 500px;
 }
-
+/* Make all links have a hover */
 a:link {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 25px;
   color: blue;
   text-decoration: none;
+  transition: .2s;
 }
 
 a:hover {
-  font-size: 25px;
+  font-size: 35px;
+  transform: scale(1.5);
 }
 
 a:focus {
@@ -175,18 +177,29 @@ h3 {
   margin: -100px 100px 100px 80px;
   padding: 50px 100px 20px 30px;
 }
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 1300px) {
+
   h2 {
     font-size: 40px;
-    padding: 0%;
+    padding: 10px 100px 0px 100px ;
     border-right: none;
     border-bottom: solid;
-    margin: 1px 200px 10px 10px;
+    margin: 20px 20px 0px 10px;
     text-orientation:upright;
+    text-align: center;
     position: static;
     writing-mode:unset;
     width: 100%;
     background-color: rgb(9, 185, 170);
+  }
+  .me{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .pic{
+    margin:0;
+    height: 10%;
+    width: 90%;
   }
   .vert-header {
     font: 10%;
@@ -196,9 +209,9 @@ h3 {
 
   }
   .about-me {
-    font-size: 300%;
+    font-size: 200%;
     width: 100%;
-    text-align: justify;
+    text-align: center;
     margin: 10% 0% 0% 0%;
     padding-bottom: 0%;
   
@@ -206,6 +219,19 @@ h3 {
   .contact{
     padding: 0%;
     margin-top: 0;
+  }
+  .ending{
+    margin: 10% ;
+    background: transparent;
+    padding: 0% 5% 40% 5%;
+    font-size: 25px;
+  }
+  footer{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sizing{
+    margin:0%
   }
 }
 
