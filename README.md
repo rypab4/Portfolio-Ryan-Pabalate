@@ -11,7 +11,8 @@ https://github.com/rypab4/challenge_2
 
 
 ## Usage
-Example is an image of the website
+Example is an image of the website: first image is of the full window and the second image is of a smaller screen
 https://rypab4.github.io/challenge_2/
 
 ![alt text](./Images/Profile-Ryan-Pabalate_capture.png)
+![alt text](./Images/Profile-Ryan-Pabalate_small_screen.png)
