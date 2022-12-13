@@ -130,6 +130,7 @@ p {
     left: 120 px;
     transform: rotate(-40deg);
     margin-left: 100px;
+    color: white;
 }
 /* Contact Section */
 .info {
