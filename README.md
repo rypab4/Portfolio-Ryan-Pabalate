@@ -1,4 +1,4 @@
-# challenge_2
+# Portfolio
 ***
 ## Description
 This challenge was to create a portfolio.  The pictures in the portfolio section will link to examples of work.  Currently only project 1 works, which link to the refractor project.  The other pictures all lead to my github profile links.  
