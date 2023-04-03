@@ -7,7 +7,8 @@ This challenge was to create a portfolio.  The pictures in the portfolio section
 To see the html, css files, and images go to terminal and open the desired folder and enter git clone 
 git@github.com:rypab4/challenge_2.git. 
 You can also find all folders and files in 
-https://github.com/rypab4/challenge_2
+(https://github.com/rypab4/Portfolio-Ryan-Pabalate)
+deployed: https://rypab4.github.io/Portfolio-Ryan-Pabalate/
 
 
 ## Usage
